@@ -1,0 +1,89 @@
+:root{
+    /*color*/
+    --primaryColor: #F1F3FF;
+    --secondaryColor: #0D28A6;
+    /*Font*/
+    --mainFont:'helvetica';
+}
+
+.body{
+    font-family: var(--mainFont);
+}
+
+.heading{
+    font-family: var(--mainFont);
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+.subheading{
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*header*/
+.navbar{
+    background-color: var(--primaryColor);
+    padding-bottom: 50px;
+    
+}
+.nav-link {
+    font-family: var(--mainFont);
+    font-weight: 400;
+}
+.nav-link.active {
+    background-color:#5CB85F;
+}
+.btn-succes{
+    background-color: #5CB85F;
+}
+.home{
+    background-color: var(--primaryColor);
+
+}
+@media screen and (min-width: 768px){
+    .home{
+        padding-top:65px;
+    }
+    .heading{
+        font-size:45px;
+    }
+    .subheading{
+        font-size: 20px;
+    }
+    }
+@media screen and (min-width: 992px){
+    .home{
+        padding-top: 125px;
+    }
+    .service{
+        padding-top: 100px;
+    }
+    .service .subheading{
+        font: size 24px;
+    }
+    .content-lg-left{
+        padding-left: 120px;
+    }
+    .heading{
+        font-size: 36px;
+    }
+    .subheading{
+        font-size:14px;
+    }     
+    .home .row{
+        height: 200%;
+    }
+    .img1{
+        top: 0;
+        left: 0;
+        height: 133px;
+        position: absolute;
+    }
+    .img2{
+        left: 60px;
+        top: 336px;
+        height:48px;
+        position: absolute;
+    }
+}
